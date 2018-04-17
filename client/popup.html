@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="./jquery.min.js"></script>
+		<link href="popup.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body style="text-align:center;">
+		<img src="./icon.png" height="42" width="42">
+		<ol style="text-align:left;">
+			<li>Fill in your git username</li>
+			<li>Enable the Github app (<a id="githubLink" href="#">https://github.com/apps/notifications</a>)</li>
+			<li>Start receiving notifications!</li>
+		</ol>
+    <p id="demo"></p>
+		<div id="wrapper">
+			<p><b>Fill in your git username:</b></p>
+			<input id="saveInput" type="text" placeholder="e.g., aditya730"/><br /><br />
+			<button id="save">SAVE</button>
+			<button id="loading">LOADING...do not close this window</button>
+		</div>
+		<script src="popup.js"></script>
+	</body>
+</html>
