@@ -1,0 +1,23 @@
+{
+  "name": "chrome-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "github-webhook-handler": "^0.7.1",
+    "googleapis": "^26.0.1",
+    "ioredis": "^3.2.2"
+  },
+  "engines": {
+    "node": "8.9.4"
+  }
+}
