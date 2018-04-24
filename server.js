@@ -102,4 +102,9 @@ app.post("/event",bodyParser.json(),async function(req,res){
 	}
 });
 
+app.get("/install",function(req,res){
+	res.send('Installation succesful') ;
+})
+
+
 
