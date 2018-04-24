@@ -6,12 +6,12 @@ and **Redis** as a key value look up to determine the GCM id's for the client ap
 The server code is primarily for reference only if one wishes to understand the working of the backend and will not function
 on your machine.
 
-## installation
+## Installation
 To use this extension
 1. Clone this repository 
-⋅⋅* git clone https://github.com/aditya730/Github-real-time-notifications.git
+- git clone https://github.com/aditya730/Github-real-time-notifications.git
 2. Go to chrome://extensions/
-⋅⋅* Load unpacked extension and navigate to the client folder in the cloned repository. 
-..* You will see a mini github icon on the top right of the screen.Click and follow the instructions
-..* Click on Reload to complete the registration process on Server.
+- Load unpacked extension and navigate to the client folder in the cloned repository. 
+- You will see a mini github icon on the top right of the screen.Click and follow the instructions.
+- Click on Reload to complete the registration process on Server.
 3. You can now recieve chrome notifications.
